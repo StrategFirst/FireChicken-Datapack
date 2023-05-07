@@ -37,7 +37,7 @@ data remove entity @s HandItems[1].tag.gravesData.items[{Slot:102b,tag:{Enchantm
 data remove entity @s HandItems[1].tag.gravesData.items[{Slot:103b,tag:{Enchantments:[{id:"minecraft:binding_curse"}]}}]
 
 # Display text info using player's name and current time
-execute align xyz run summon minecraft:text_display ~1.0 ~.1 ~.5 {text:'[{"text":"RIP :\\n"},{"selector":"@a"},{"text":"\\n"},{"nbt":"time","storage":"clock"}]',Tags:['this','graves.display']}
+execute align xyz run summon minecraft:text_display ~1.0 ~.1 ~.5 {text:'[{"text":"RIP :\\n"},{"selector":"@a[tag=this]"},{"text":"\\n"},{"nbt":"time","storage":"clock"}]',Tags:['this','graves.display']}
 execute as @e[type=minecraft:text_display,tag=this] at @s run tp @s ~ ~ ~ facing ~.1 ~1 ~
 execute as @e[type=minecraft:text_display,tag=this] run data modify entity @s transformation.scale set value [.3f,.3f,.3f]
 tag @e[type=minecraft:text_display,tag=this] remove this
