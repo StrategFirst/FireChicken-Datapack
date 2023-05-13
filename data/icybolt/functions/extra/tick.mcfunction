@@ -1,0 +1,2 @@
+execute as @a if score @s icybolt.extra.mineblue matches 1.. at @s run function icybolt:extra/trigger_blueice
+execute as @a if score @s icybolt.extra.minepacked matches 1.. at @s run function icybolt:extra/trigger_packedice
