@@ -11,7 +11,7 @@
 
 </div>
 
-> Datapack minecraft pour la version `23w17a` dans le but de suivre l'évolution des versions
+> Datapack minecraft pour la version `23w18a` (datapack V15) dans le but de suivre l'évolution des versions
 
 ## :tombstone: Tombe
 
