@@ -11,9 +11,9 @@
 
 </div>
 
-> Datapack minecraft pour la version `23w18a` (datapack V15) dans le but de suivre l'évolution des versions
+> Datapack minecraft pour la version `1.20.x` (datapack V15)
 
-## :tombstone: Tombe
+## :headstone: Tombe
 
 À sa mort, tout joueur génère une tombe qui contient tout son équipement, sauf les pièces enchanté avec `Curse of binding` et qui étaient équipées.
 
