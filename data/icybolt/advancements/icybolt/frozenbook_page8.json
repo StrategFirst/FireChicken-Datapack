@@ -1,0 +1,24 @@
+{
+    "parent": "icybolt:icybolt/frozenbook_page7",
+    "criteria": {
+        "dummy": { "trigger":"minecraft:impossible" }
+    },
+    "display": {
+        "icon": { 
+            "item": "minecraft:paper" 
+        },
+        "title": { 
+            "text": "Page 8          " 
+        },
+        "description": { 
+            "text": "_ TODO _ #DROP_3" 
+        },
+        "frame": "task",
+        "show_toast": true,
+        "hidden": false,
+        "announce_to_chat": false
+    },
+    "rewards": {
+        "function": "icybolt:extra/trigger_frozenbook"
+    }
+}

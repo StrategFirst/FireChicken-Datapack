@@ -1,0 +1,21 @@
+{
+    "parent": "icybolt:icybolt/frozenbook_page8",
+    "criteria": {
+        "dummy": { "trigger":"minecraft:impossible" }
+    },
+    "display": {
+        "icon": { 
+            "item": "minecraft:written_book" 
+        },
+        "title": { 
+            "text": "Codex" 
+        },
+        "description": { 
+            "text": "Le codex complet !" 
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "hidden": false,
+        "announce_to_chat": false
+    }
+}

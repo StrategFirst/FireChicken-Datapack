@@ -16,5 +16,11 @@
   {
     "condition": "minecraft:random_chance",
     "chance": 0.0052
+  },
+  {
+    "condition": "minecraft:location_check",
+    "predicate": {
+      "biome": "minecraft:ice_spikes"
+    }
   }
 ]

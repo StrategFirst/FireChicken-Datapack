@@ -1,0 +1,22 @@
+{
+    "parent": "icybolt:icybolt/frozenboss_kill_dragon",
+    "criteria": {
+        "dummy": { "trigger":"minecraft:impossible" }
+    },
+    "display": {
+        "icon": { 
+            "item": "minecraft:blaze_powder",
+            "nbt": "{ \"Enchantments\": [{ \"lvl\": 1, \"id\": \"minecraft:sharpness\" }] }"
+        },
+        "title": { 
+            "text": "It's chaud time!" 
+        },
+        "description": { 
+            "text": "Kill IcyBolt alone in less than a minute." 
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "hidden": false,
+        "announce_to_chat": false
+    }
+}

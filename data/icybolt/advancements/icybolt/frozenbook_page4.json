@@ -1,0 +1,24 @@
+{
+    "parent": "icybolt:icybolt/frozenbook_page3",
+    "criteria": {
+        "dummy": { "trigger":"minecraft:impossible" }
+    },
+    "display": {
+        "icon": { 
+            "item": "minecraft:paper" 
+        },
+        "title": { 
+            "text": "Page 4          " 
+        },
+        "description": { 
+            "text": "_ TODO _ #SPELL_FROZEN_BOLT" 
+        },
+        "frame": "task",
+        "hidden": false,
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "rewards": {
+        "function": "icybolt:extra/trigger_frozenbook"
+    }
+}
