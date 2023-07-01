@@ -29,10 +29,10 @@ For each page the probability is compute folowing this formula :
 
 The page won't drop sorted.
 
-### 2️⃣ 🧊⚡ Ambient anger
-`❌ Not Implemented Yet`
+### 2️⃣ ⚡😠 Ambient anger
+`✔️ Implemented`
 
-If anyone without the advancment "It's chaud time!", is currently inside an ice_spikes biome, the weather will alternate only between rain (snow) and thunder.
+If anyone without the advancment "It's chaud time!", is currently inside an ice spikes biome, the weather will be force to thunder.
 
 ### 3️⃣ 🧊⛏️ Blue ice breaking 
 `❌ Not Implemented Yet`
@@ -47,6 +47,8 @@ Probability `1/2500` ( Fortune will increase this)
 `❌ Not Implemented Yet`
 
 After you succesfuly found a frozen dragon fossile ( further information in blue ice breaking part ). If you try to break it, it won't. If you are right clicking with a netherite pickaxe you will break and continue to process the otherwise you will be talled to get a stronger tool.
+
+> « A magic flow came from this ice, you feal it, it's realy cold and angry! This will need great power to dill with it. »
 
 The terrain will then be transform into a massive frozen area !
 With a block explosion
