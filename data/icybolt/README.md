@@ -35,11 +35,16 @@ The page won't drop sorted.
 If anyone without the advancment "It's chaud time!", is currently inside an ice spikes biome, the weather will be force to thunder.
 
 ### 3️⃣ 🧊⛏️ Blue ice breaking 
-`❌ Not Implemented Yet`
+`✔️ Implemented`
 
 Upon breaking blue ice in ice spikes biome, you may found a suspicious ice block with an dragon egg inside. Further information down below in boss spawn mechanic.
 
-Probability `1/2500` ( Fortune will increase this)
+| Fortune level | Probability | Equivalent stack |
+|---------------|-------------|------------------|
+| _None_        |   0.078 %   |        10        |
+|  1            |    1.04 %   |       3⁄2        |
+|  2            |    1.56 %   |       2⁄2        |
+|  3            |    3.13 %   |       1⁄2        |
 
 ## 🐲 Boss mechanics
 

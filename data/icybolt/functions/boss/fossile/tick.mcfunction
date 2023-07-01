@@ -1,0 +1,1 @@
+execute as @e[tag=fossile,tag=icybolt] run function icybolt:boss/fossile/check_break_s1

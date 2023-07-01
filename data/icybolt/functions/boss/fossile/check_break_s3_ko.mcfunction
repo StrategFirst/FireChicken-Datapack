@@ -1,0 +1,1 @@
+tellraw @s {"text":"A magic flow came out of this ice, you feal it, it's realy cold and angry! This will need a greater power if you want to take it. ","italic":true,"color":"aqua"}

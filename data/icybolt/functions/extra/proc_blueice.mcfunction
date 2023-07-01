@@ -1,0 +1,1 @@
+execute at @s align xyz run function icybolt:boss/fossile/summon
