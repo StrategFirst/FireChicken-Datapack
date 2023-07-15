@@ -46,3 +46,34 @@ summon minecraft:block_display ~ ~ ~ {block_state:{Name:"minecraft:ice"},Tags:['
 # # auxiliary
 summon minecraft:block_display ~ ~ ~ {block_state:{Name:"minecraft:diorite"},Tags:['icybolt','drake'],transformation: {left_rotation: [0.0f, .1f, 0.0f, 1.0f], translation: [3.2f, 0.1f, -3.2f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f],scale :[.40f,.15f,.40f]}}
 summon minecraft:block_display ~ ~ ~ {block_state:{Name:"minecraft:diorite"},Tags:['icybolt','drake'],transformation: {left_rotation: [0.0f, .2f, 0.0f, 1.0f], translation: [3.0f, 0.1f, -2.7f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f],scale :[.40f,.15f,.40f]}}
+
+# body
+# # primary
+summon minecraft:block_display ~ ~ ~ {block_state:{Name:"minecraft:blue_ice"},Tags:['icybolt','drake'],transformation: {left_rotation: [0.0f,0.0f, 0.0f, 1.0f], translation: [-2.2f, -0.4f, -0.7f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f],scale :[4.0f,0.9f,1.4f]}}
+
+# feet
+# # primary
+summon minecraft:block_display ~ ~ ~ {block_state:{Name:"minecraft:blue_ice"},Tags:['icybolt','drake'],transformation: {left_rotation: [0.0f,0.0f, -0.3f, 1.0f], translation: [0.3f, -0.8f, -0.9f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f],scale :[0.6f,0.3f,0.4f]}}
+summon minecraft:block_display ~ ~ ~ {block_state:{Name:"minecraft:blue_ice"},Tags:['icybolt','drake'],transformation: {left_rotation: [0.0f,0.0f, -0.3f, 1.0f], translation: [0.3f, -0.8f, 0.5f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f],scale :[0.6f,0.3f,0.4f]}}
+summon minecraft:block_display ~ ~ ~ {block_state:{Name:"minecraft:blue_ice"},Tags:['icybolt','drake'],transformation: {left_rotation: [0.0f,0.0f, -0.3f, 1.0f], translation: [-1.3f, -0.8f, -0.9f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f],scale :[0.6f,0.3f,0.4f]}}
+summon minecraft:block_display ~ ~ ~ {block_state:{Name:"minecraft:blue_ice"},Tags:['icybolt','drake'],transformation: {left_rotation: [0.0f,0.0f, -0.3f, 1.0f], translation: [-1.3f, -0.8f, 0.5f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f],scale :[0.6f,0.3f,0.4f]}}
+# # secondary
+summon minecraft:block_display ~ ~ ~ {block_state:{Name:"minecraft:packed_ice"},Tags:['icybolt','drake'],transformation: {left_rotation: [0.0f,0.0f, 0.0f, 1.0f], translation: [0.3f, -0.8f, -0.9f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f],scale :[0.6f,0.3f,0.4f]}}
+summon minecraft:block_display ~ ~ ~ {block_state:{Name:"minecraft:packed_ice"},Tags:['icybolt','drake'],transformation: {left_rotation: [0.0f,0.0f, 0.0f, 1.0f], translation: [0.3f, -0.8f, 0.5f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f],scale :[0.6f,0.3f,0.4f]}}
+summon minecraft:block_display ~ ~ ~ {block_state:{Name:"minecraft:packed_ice"},Tags:['icybolt','drake'],transformation: {left_rotation: [0.0f,0.0f, 0.0f, 1.0f], translation: [-1.3f, -0.8f, -0.9f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f],scale :[0.6f,0.3f,0.4f]}}
+summon minecraft:block_display ~ ~ ~ {block_state:{Name:"minecraft:packed_ice"},Tags:['icybolt','drake'],transformation: {left_rotation: [0.0f,0.0f, 0.0f, 1.0f], translation: [-1.3f, -0.8f, 0.5f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f],scale :[0.6f,0.3f,0.4f]}}
+# # auxiliary
+summon minecraft:block_display ~ ~ ~ {block_state:{Name:"minecraft:diorite"},Tags:['icybolt','drake'],transformation: {left_rotation: [0.0f,0.0f, 0.0f, 1.0f], translation: [0.85f, -1.1f, -0.88f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f],scale :[0.2f,0.1f,0.1f]}}
+summon minecraft:block_display ~ ~ ~ {block_state:{Name:"minecraft:diorite"},Tags:['icybolt','drake'],transformation: {left_rotation: [0.0f,0.0f, 0.0f, 1.0f], translation: [0.85f, -1.1f, -0.74f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f],scale :[0.2f,0.1f,0.1f]}}
+summon minecraft:block_display ~ ~ ~ {block_state:{Name:"minecraft:diorite"},Tags:['icybolt','drake'],transformation: {left_rotation: [0.0f,0.0f, 0.0f, 1.0f], translation: [0.85f, -1.1f, -0.60f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f],scale :[0.2f,0.1f,0.1f]}}
+summon minecraft:block_display ~ ~ ~ {block_state:{Name:"minecraft:diorite"},Tags:['icybolt','drake'],transformation: {left_rotation: [0.0f,0.0f, 0.0f, 1.0f], translation: [0.85f, -1.1f, 0.52f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f],scale :[0.2f,0.1f,0.1f]}}
+summon minecraft:block_display ~ ~ ~ {block_state:{Name:"minecraft:diorite"},Tags:['icybolt','drake'],transformation: {left_rotation: [0.0f,0.0f, 0.0f, 1.0f], translation: [0.85f, -1.1f, 0.66f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f],scale :[0.2f,0.1f,0.1f]}}
+summon minecraft:block_display ~ ~ ~ {block_state:{Name:"minecraft:diorite"},Tags:['icybolt','drake'],transformation: {left_rotation: [0.0f,0.0f, 0.0f, 1.0f], translation: [0.85f, -1.1f, 0.80f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f],scale :[0.2f,0.1f,0.1f]}}
+summon minecraft:block_display ~ ~ ~ {block_state:{Name:"minecraft:diorite"},Tags:['icybolt','drake'],transformation: {left_rotation: [0.0f,0.0f, 0.0f, 1.0f], translation: [-0.45f, -1.1f, -0.88f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f],scale :[0.2f,0.1f,0.1f]}}
+summon minecraft:block_display ~ ~ ~ {block_state:{Name:"minecraft:diorite"},Tags:['icybolt','drake'],transformation: {left_rotation: [0.0f,0.0f, 0.0f, 1.0f], translation: [-0.45f, -1.1f, -0.74f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f],scale :[0.2f,0.1f,0.1f]}}
+summon minecraft:block_display ~ ~ ~ {block_state:{Name:"minecraft:diorite"},Tags:['icybolt','drake'],transformation: {left_rotation: [0.0f,0.0f, 0.0f, 1.0f], translation: [-0.45f, -1.1f, -0.60f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f],scale :[0.2f,0.1f,0.1f]}}
+summon minecraft:block_display ~ ~ ~ {block_state:{Name:"minecraft:diorite"},Tags:['icybolt','drake'],transformation: {left_rotation: [0.0f,0.0f, 0.0f, 1.0f], translation: [-0.45f, -1.1f, 0.52f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f],scale :[0.2f,0.1f,0.1f]}}
+summon minecraft:block_display ~ ~ ~ {block_state:{Name:"minecraft:diorite"},Tags:['icybolt','drake'],transformation: {left_rotation: [0.0f,0.0f, 0.0f, 1.0f], translation: [-0.45f, -1.1f, 0.66f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f],scale :[0.2f,0.1f,0.1f]}}
+summon minecraft:block_display ~ ~ ~ {block_state:{Name:"minecraft:diorite"},Tags:['icybolt','drake'],transformation: {left_rotation: [0.0f,0.0f, 0.0f, 1.0f], translation: [-0.45f, -1.1f, 0.80f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f],scale :[0.2f,0.1f,0.1f]}}
+
+
