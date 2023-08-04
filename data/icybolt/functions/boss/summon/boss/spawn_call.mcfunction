@@ -16,4 +16,5 @@ execute at @s run particle minecraft:dust 0.6 0.6 1 2 ~ ~ ~ 2 2 2 8 1250
 execute at @s run particle minecraft:explosion_emitter ~ ~ ~ 0 0 0 0 2
 execute at @s run particle minecraft:cloud ~ ~ ~ 0 0 0 1 5000
 
-# TODO ASSEMBLY AND START ROATION !!!!
+# The boss it self
+execute at @s run function icybolt:boss/summon/drake/main
