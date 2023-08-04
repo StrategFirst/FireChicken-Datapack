@@ -102,6 +102,12 @@ freez, slow, and thunder damage
 
 summoning a lightningbolt and wateever next
 
+
+#### **≷** Flash
+`❌ Not Implemented Yet`
+
+use is wing to reflect light and blind you
+
 ### 🏆 Kill
 `❌ Not Implemented Yet`
 
