@@ -63,16 +63,20 @@ The dragon will then appear and start is rotation up into the sky
 ### 👀 Design
 `🟠 Currently working on it !` 
 
- - [ ] Tail
- - [ ] Feet
- - [ ] Body
+ - [x] Tail
+ - [x] Feet
+ - [x] Body
  - [x] Wings
- - [ ] Head
+ - [x] Head
+ - [x] Hitboxes
 
 ### 🔁 Rotation
 `❌ Not Implemented Yet`
 
 After spawning he will start is rotation (WIP)
+ - [ ] Movement and tilt mechanics
+ - [ ] Brain mechanics
+ - [ ] Execution
 
 ### 🪄 Spells
 `❌ Not Implemented Yet`
@@ -107,6 +111,7 @@ summoning a lightningbolt and wateever next
 `❌ Not Implemented Yet`
 
 use is wing to reflect light and blind you
+`particle minecraft:block_marker white_concrete ~ ~1.8 ~ 0.2 0.2 0.2 01 80`
 
 ### 🏆 Kill
 `❌ Not Implemented Yet`
