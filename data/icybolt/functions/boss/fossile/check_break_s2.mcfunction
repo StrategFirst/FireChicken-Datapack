@@ -1,2 +1,0 @@
-execute if predicate icybolt:extra/strong_pickaxe run execute as @e[tag=this_stack,limit=1,sort=nearest] run function icybolt:boss/fossile/check_break_s3_ok
-execute unless predicate icybolt:extra/strong_pickaxe run function icybolt:boss/fossile/check_break_s3_ko
