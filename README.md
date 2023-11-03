@@ -36,13 +36,3 @@ retour au format `HH:MM:SS`
 Ensemble d'outils pratique :
 
  - Conversion `string` to `int` ( max length : `10` )
-
-## :game_die: Générateur aléatoire
-
-Contient plein d'utilitaire pour générer des nombres aléatoires :
-
- - `1bit` : `0` ou `1`
- - `3bit` : `0` à `7`
- - `4bit` : `0` à `15`
- - `10bit` : `0` à `1023`
- - `11bit_signed` : `-1023` à `1023`
