@@ -11,7 +11,7 @@
 
 </div>
 
-> Datapack minecraft pour la version `1.20.x` (datapack V15)
+> Datapack minecraft pour la version `23w44a` (datapack V23)
 
 ## 🪦 Tombe
 
