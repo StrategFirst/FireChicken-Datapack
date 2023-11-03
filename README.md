@@ -15,7 +15,8 @@
 
 ## 🪦 Tombe
 
-À sa mort, tout joueur génère une tombe qui contient tout son équipement, sauf les pièces enchanté avec `Curse of binding` et qui étaient équipées.
+À sa mort, tout joueur génère une tombe qui contient tout son équipement, sauf les objets enchanté avec `Curse of vanishing`.
+_Ce dernier point ne concerne pas les livres enchantés avec `Curse of vanishing`._
 
 La tombe indique le nom du joueur décédé et l'heure de la mort.
 

@@ -30,11 +30,8 @@ execute align xyz run summon minecraft:interaction ~0.5 ~ ~0.5 {width:0.5,height
 # Store player inventory 
 data modify entity @s HandItems[1].tag.gravesData.items set from entity @p[tag=graves.death_target] Inventory
 
-# Remove curse of binding equipped stuff
-data remove entity @s HandItems[1].tag.gravesData.items[{Slot:100b,tag:{Enchantments:[{id:"minecraft:binding_curse"}]}}]
-data remove entity @s HandItems[1].tag.gravesData.items[{Slot:101b,tag:{Enchantments:[{id:"minecraft:binding_curse"}]}}]
-data remove entity @s HandItems[1].tag.gravesData.items[{Slot:102b,tag:{Enchantments:[{id:"minecraft:binding_curse"}]}}]
-data remove entity @s HandItems[1].tag.gravesData.items[{Slot:103b,tag:{Enchantments:[{id:"minecraft:binding_curse"}]}}]
+# Remove curse of vanishing equipped stuff
+data remove entity @s HandItems[1].tag.gravesData.items[{tag:{Enchantments:[{id:"minecraft:vanishing_curse"}]}}]
 
 # Display text info using player's name and current time
 execute align xyz run summon minecraft:text_display ~1.0 ~.1 ~.5 {text:'[{"text":"RIP :\\n"},{"selector":"@a[tag=graves.death_target]"},{"text":"\\n"},{"nbt":"time","storage":"clock"}]',Tags:['this','graves.display']}
