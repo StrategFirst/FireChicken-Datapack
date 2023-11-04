@@ -11,17 +11,18 @@
 
 </div>
 
-> Datapack minecraft pour la version `23w18a` (datapack V15) dans le but de suivre l'évolution des versions
+> Datapack minecraft pour la version `23w44a` (datapack V23) dans le but de suivre l'évolution des versions
 
-## :tombstone: Tombe
+## 🪦 Tombe
 
-À sa mort, tout joueur génère une tombe qui contient tout son équipement, sauf les pièces enchanté avec `Curse of binding` et qui étaient équipées.
+À sa mort, tout joueur génère une tombe qui contient tout son équipement, sauf les objets enchanté avec `Curse of vanishing`.
+_Ce dernier point ne concerne pas les livres enchantés avec `Curse of vanishing`._
 
 La tombe indique le nom du joueur décédé et l'heure de la mort.
 
 Le contenu peut être récupéré par tout joueur qui interagit avec la tombe.
 
-## :clock1030: Horloge
+## 🕥 Horloge
 
 Récupères en permanence l'heure réelle ( heure + minute + seconde )
 
@@ -31,18 +32,26 @@ data get storage clock time
 ```
 retour au format `HH:MM:SS` 
 
-## :toolbox: Utilitaire
+Ce datapack ajoute aussi un multi block pendule pour visualiser en survie l'heure IRL ingame.
+
+<details>
+<summary>Démo</summary>
+https://github.com/StrategFirst/FireChicken-Datapack/tree/main/demo/clock.mp4
+</details>
+
+## 🧰 Utilitaire
 
 Ensemble d'outils pratique :
 
  - Conversion `string` to `int` ( max length : `10` )
 
-## :game_die: Générateur aléatoire
+## ✨ Invis Item Frame
 
-Contient plein d'utilitaire pour générer des nombres aléatoires :
+Permet en renommant un Item Frame (Glow ou non) `invis`
+de le rendre invisible tant qu'il a un objet à l'interrieur
+visuellement plus attirant !
 
- - `1bit` : `0` ou `1`
- - `3bit` : `0` à `7`
- - `4bit` : `0` à `15`
- - `10bit` : `0` à `1023`
- - `11bit_signed` : `-1023` à `1023`
+<details>
+<summary>Démo</summary>
+https://github.com/StrategFirst/FireChicken-Datapack/tree/main/demo/demo.mp4
+</details>

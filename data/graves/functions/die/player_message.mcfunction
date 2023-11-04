@@ -1,4 +1,22 @@
 execute store result score #x graves.death run data get entity @s Pos[0]
 execute store result score #y graves.death run data get entity @s Pos[1]
 execute store result score #z graves.death run data get entity @s Pos[2]
-tellraw @s ["",{"text":"Your tombstone is located at : ","color":"#2A2A2A"},{"score":{"name":"#x","objective":"graves.death"},"color":"#6A0000"}," ",{"score":{"name":"#y","objective":"graves.death"},"color":"#006A03"}," ",{"score":{"name":"#z","objective":"graves.death"},"color":"#00006A"}]
+
+tellraw @s ""
+tellraw @s [{"color":"#888888","text":"⠀⠀⠀⠀⠀⠀⣠⣔⡿⠛⠒⠒⡕⢄⠀⠀⠀⠀⠀⠀⠀⠀⠀" }]
+tellraw @s [{"color":"#888888","text":"⠀⠀⠀⠀⣀⣴⣳⠃⠀⠀⠀⠀⠀⠘⢎⡦⣄⠀⠀⠀⠀⠀⠀" }]
+tellraw @s [{"color":"#888888","text":"⠀⠀⠀⣜⠟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠢⣳⠀⠀⠀⠀⠀" }]
+tellraw @s [{"color":"#888888","text":"⠀⠀⠀⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⡆⠀⠀⠀"  }]
+tellraw @s [{"color":"#888888","text":"⠀⠀⠀⣿⠀⢀⢴⠶⣤⢄⢲⣲⠦⣦⣤⡤⡀⡇⠇⠀⠀⠀⠀"}]
+tellraw @s [{"color":"#888888","text":"⠀⠀⠀⣿⠀⠀⣾⢀⣸⡸⠘⢸⠀⣿⠀⣸⡏⣧⠀⠀⠀⠀⠀"}]
+tellraw @s [{"color":"#888888","text":"⠀⠀⠀⣿⠀⠀⣿⠿⡯⡀⢀⣼⢀⣿⠛⠉⠀⢻⠀⠀⠀⠀⠀"}]
+tellraw @s [{"color":"#888888","text":"⠀⠀⠀⣿⠀⠐⠛⠂⠘⠛⠒⠛⠊⠛⠂⠀ ⢸⢸⠀⠀⠀⠀"}]
+tellraw @s [{"color":"#888888","text":"⠀⠀⠀⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡼⠀⠀⠀"}]
+tellraw @s [{"color":"#888888","text":"⠀⠀⠀⢻⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡆⠀⠀⠀"}]
+tellraw @s [{"color":"#888888","text":"⠀⠀⢀⢾⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡷⡀⠀⠀"}]
+tellraw @s [{"color":"#888888","text":"⠀⣠⠃⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠛⠃⠐⡄⠀⠀⠀⠀"}]
+tellraw @s [{"color":"#888888","text":"⠀⣯⣉⣉⣉⣉⣉⣉⣉⣉⣉⣉⣉⣉⣉⣉⣉⣉⣹⠀⠀⠀⠀"}]
+tellraw @s [{"color":"#888888","text":"⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀"}]
+tellraw @s [{"color":"#888888","text":"⠀ "},{"color":"#666666","score":{"name":"#x","objective":"graves.death"}}," ",{"score":{"name":"#y","objective":"graves.death"},"color":"#666666"}," ",{"score":{"name":"#z","objective":"graves.death"},"color":"#666666"},{"color":"#888888","text":" ⠀"}]
+tellraw @s [{"color":"#888888","text":"⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀"}]
+tellraw @s ""
