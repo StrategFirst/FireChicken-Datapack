@@ -32,6 +32,13 @@ data get storage clock time
 ```
 retour au format `HH:MM:SS` 
 
+Ce datapack ajoute aussi un multi block pendule pour visualiser en survie l'heure IRL ingame.
+
+<details>
+<summary>Démo</summary>
+https://github.com/StrategFirst/FireChicken-Datapack/tree/main/demo/clock.mp4
+</details>
+
 ## 🧰 Utilitaire
 
 Ensemble d'outils pratique :
@@ -43,3 +50,8 @@ Ensemble d'outils pratique :
 Permet en renommant un Item Frame (Glow ou non) `invis`
 de le rendre invisible tant qu'il a un objet à l'interrieur
 visuellement plus attirant !
+
+<details>
+<summary>Démo</summary>
+https://github.com/StrategFirst/FireChicken-Datapack/tree/main/demo/demo.mp4
+</details>
