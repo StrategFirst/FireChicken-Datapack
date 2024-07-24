@@ -22,8 +22,8 @@
 #     fcpack:utils str2int.c9 (storage) [string]
 #
 # Claim :
-#     utils.str2int #swap [int] = -1
-#     utils.str2int #shift [int] = 10
+#     utils.str2int #swap (scoreboard) [int] = -1
+#     utils.str2int #shift (scoreboard) [int] = 10
 
 # Reset state
 data modify storage fcpack:utils str2int.c0 set value ""
