@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
-        "utils:time/tick"
+        "utils:time/tick",
+        "clock:tick"
     ]
 }
