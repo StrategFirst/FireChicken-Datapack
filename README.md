@@ -11,7 +11,7 @@
 
 </div>
 
-> Datapack minecraft pour la version `23w44a` (datapack V23)
+> Datapack minecraft pour la version `1.21` (datapack V48) dans le but de suivre l'évolution des versions
 
 ## 🪦 Tombe
 
