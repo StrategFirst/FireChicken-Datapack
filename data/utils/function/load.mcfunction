@@ -5,8 +5,8 @@
 # Output :
 #
 # Claim :
-#     utils.str2int #swap [int] = -1
-#     utils.str2int #shift [int] = 10
+#     utils.str2int #swap (scoreboard) [int] = -1
+#     utils.str2int #shift (scoreboard) [int] = 10
 
 # str2int
 scoreboard objectives add utils.str2int dummy
