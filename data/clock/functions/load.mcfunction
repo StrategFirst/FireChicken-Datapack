@@ -1,1 +1,0 @@
-function clock:beauty/load

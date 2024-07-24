@@ -1,3 +1,11 @@
+# Convert from a multi block into a real clock the clock,
+# guess it's a clock item frame multiblock executing this
+# this is only the second part out of 2 handling entities
+#
+# Input :
+#
+# Output :
+
 # Static visual :
 summon minecraft:block_display ~ ~ ~ {      Tags:['beauty_clock','those'],block_state:{Name:"minecraft:white_stained_glass"},             transformation: {left_rotation: [0.0f,0.0f, 0.0f, 1.0f], translation: [-0.40f, 0.10f, -0.40f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f],scale :[ 0.8f, 1.8f, 0.8f]}}
 summon minecraft:block_display ~ ~ ~ {      Tags:['beauty_clock','those'],block_state:{Name:"minecraft:light_weighted_pressure_plate"},   transformation: {left_rotation: [0.0f,0.0f, 0.0f, 1.0f], translation: [-0.55f, 0.00f, -0.55f], right_rotation: [0.0f, 0.0f, 0.0f, 1.0f],scale :[ 1.1f, 2.0f, 1.1f]}}
