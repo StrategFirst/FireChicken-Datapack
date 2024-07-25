@@ -1,4 +1,4 @@
-# Setup elements for utils funcitons, such has scoreboard and there constant
+# Setup elements for utils functions, such has scoreboard and there constant
 #
 # Input :
 #

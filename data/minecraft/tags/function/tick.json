@@ -3,6 +3,7 @@
     "values": [
         "utils:time/tick",
         "clock:tick",
-        "display:tick"
+        "display:tick",
+        "graves:tick"
     ]
 }

@@ -3,6 +3,7 @@
     "values": [
         "utils:load",
         "utils:time/load",
-        "clock:load"
+        "clock:load",
+        "graves:load"
     ]
 }
