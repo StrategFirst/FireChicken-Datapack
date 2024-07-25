@@ -1,3 +1,9 @@
+# Dispatch tasks on death
+#
+# Input :
+#
+# Output :
+
 tag @s add graves.death_target
 execute at @s summon minecraft:armor_stand run function graves:die/grave_spawn
 tag @s remove graves.death_target
