@@ -40,17 +40,5 @@
 				"italic": true
 			}
 		]
-	},
-	"filter": {
-		"block": [
-			{}
-		]
-	},
-	"overlays": {
-		"entries": [
-			{
-				"formats": 0
-			}
-		]
 	}
 }
