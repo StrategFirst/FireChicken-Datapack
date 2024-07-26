@@ -1,6 +1,44 @@
 {
 	"pack": {
-		"pack_format": 23,
-		"description": [{"text":"Firechicken datapack","color":"gold"},{"text":"\nBy Mathieu T. ( Trohm )","color":"red"}]
+		"pack_format": 48,
+		"supported_formats": [
+			48,
+			45
+		],
+		"description": [
+			{
+				"text": "🪶",
+				"color": "red"
+			},
+			{
+				"text": "🪶",
+				"color": "gold"
+			},
+			{
+				"text": "🪶",
+				"color": "yellow"
+			},
+			{
+				"text": " Firechicken datapack ",
+				"color": "gold"
+			},
+			{
+				"text": "🪶",
+				"color": "yellow"
+			},
+			{
+				"text": "🪶",
+				"color": "gold"
+			},
+			{
+				"text": "🪶",
+				"color": "red"
+			},
+			{
+				"text": "\nBy Mathieu T. ( Trohm )",
+				"color": "dark_red",
+				"italic": true
+			}
+		]
 	}
 }

@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "utils:time/tick",
+        "clock:tick",
+        "display:tick",
+        "graves:tick"
+    ]
+}
