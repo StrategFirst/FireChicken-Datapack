@@ -1,1 +1,1 @@
-particle dust 1 1 0 .5 ~ ~ ~ .15 .15 .15 0.1 60 force
+particle dust{color: [1, 1, 0], scale: 0.5} ~ ~ ~ .15 .15 .15 0.1 60 force

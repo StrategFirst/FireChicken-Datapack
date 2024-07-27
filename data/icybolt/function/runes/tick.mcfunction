@@ -1,5 +1,5 @@
 # Animation via particle
-particle minecraft:falling_dust ice ~ ~-1 ~ 0.2 0.1 0.2 0 1 normal
+particle minecraft:falling_dust{block_state:{Name:ice}} ~ ~-1 ~ 0.2 0.1 0.2 0 1 normal
 
 # Test if neighbours
 function icybolt:runes/find_triangle/step1

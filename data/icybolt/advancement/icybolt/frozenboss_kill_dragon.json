@@ -1,21 +1,23 @@
 {
-    "parent": "icybolt:icybolt/root",
-    "criteria": {
-        "dummy": { "trigger":"minecraft:impossible" }
-    },
-    "display": {
-        "icon": { 
-            "item": "minecraft:dragon_head" 
-        },
-        "title": { 
-            "text": "Warming things up!" 
-        },
-        "description": { 
-            "text": "Kill IcyBolt" 
-        },
-        "frame": "goal",
-        "hidden": true,
-        "show_toast": true,
-        "announce_to_chat": false
-    }
+	"parent": "icybolt:icybolt/root",
+	"criteria": {
+		"dummy": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"display": {
+		"icon": {
+			"id": "minecraft:dragon_head"
+		},
+		"title": {
+			"text": "Warming things up!"
+		},
+		"description": {
+			"text": "Kill IcyBolt"
+		},
+		"frame": "goal",
+		"hidden": true,
+		"show_toast": true,
+		"announce_to_chat": false
+	}
 }

@@ -1,24 +1,26 @@
 {
-    "parent": "icybolt:icybolt/root",
-    "criteria": {
-        "dummy": { "trigger":"minecraft:impossible" }
-    },
-    "display": {
-        "icon": { 
-            "item": "minecraft:paper" 
-        },
-        "title": { 
-            "text": "Page 1          "
-        },
-        "description": { 
-            "text": "Forgotten memories, frozen in time..." 
-        },
-        "frame": "task",
-        "hidden": false,
-        "show_toast": true,
-        "announce_to_chat": false
-    },
-    "rewards": {
-        "function": "icybolt:extra/trigger_frozenbook"
-    }
+	"parent": "icybolt:icybolt/root",
+	"criteria": {
+		"dummy": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"display": {
+		"icon": {
+			"id": "minecraft:paper"
+		},
+		"title": {
+			"text": "Page 1          "
+		},
+		"description": {
+			"text": "Forgotten memories, frozen in time..."
+		},
+		"frame": "task",
+		"hidden": false,
+		"show_toast": true,
+		"announce_to_chat": false
+	},
+	"rewards": {
+		"function": "icybolt:extra/trigger_frozenbook"
+	}
 }

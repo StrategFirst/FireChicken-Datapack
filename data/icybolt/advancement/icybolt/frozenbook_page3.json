@@ -1,24 +1,26 @@
 {
-    "parent": "icybolt:icybolt/frozenbook_page2",
-    "criteria": {
-        "dummy": { "trigger":"minecraft:impossible" }
-    },
-    "display": {
-        "icon": { 
-            "item": "minecraft:paper" 
-        },
-        "title": { 
-            "text": "Page 3          " 
-        },
-        "description": { 
-            "text": "_ TODO _ #SPELL_RUNE" 
-        },
-        "frame": "task",
-        "hidden": false,
-        "show_toast": true,
-        "announce_to_chat": false
-    },
-    "rewards": {
-        "function": "icybolt:extra/trigger_frozenbook"
-    }
+	"parent": "icybolt:icybolt/frozenbook_page2",
+	"criteria": {
+		"dummy": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"display": {
+		"icon": {
+			"id": "minecraft:paper"
+		},
+		"title": {
+			"text": "Page 3          "
+		},
+		"description": {
+			"text": "_ TODO _ #SPELL_RUNE"
+		},
+		"frame": "task",
+		"hidden": false,
+		"show_toast": true,
+		"announce_to_chat": false
+	},
+	"rewards": {
+		"function": "icybolt:extra/trigger_frozenbook"
+	}
 }

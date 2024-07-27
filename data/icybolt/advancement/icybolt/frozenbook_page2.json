@@ -1,24 +1,26 @@
 {
-    "parent": "icybolt:icybolt/frozenbook_page1",
-    "criteria": {
-        "dummy": { "trigger":"minecraft:impossible" }
-    },
-    "display": {
-        "icon": { 
-            "item": "minecraft:paper" 
-        },
-        "title": { 
-            "text": "Page 2          " 
-        },
-        "description": { 
-            "text": "_ TODO _ #SPELL_FROST_ORB" 
-        },
-        "frame": "task",
-        "hidden": true,
-        "show_toast": true,
-        "announce_to_chat": false
-    },
-    "rewards": {
-        "function": "icybolt:extra/trigger_frozenbook"
-    }
+	"parent": "icybolt:icybolt/frozenbook_page1",
+	"criteria": {
+		"dummy": {
+			"trigger": "minecraft:impossible"
+		}
+	},
+	"display": {
+		"icon": {
+			"id": "minecraft:paper"
+		},
+		"title": {
+			"text": "Page 2          "
+		},
+		"description": {
+			"text": "_ TODO _ #SPELL_FROST_ORB"
+		},
+		"frame": "task",
+		"hidden": true,
+		"show_toast": true,
+		"announce_to_chat": false
+	},
+	"rewards": {
+		"function": "icybolt:extra/trigger_frozenbook"
+	}
 }
