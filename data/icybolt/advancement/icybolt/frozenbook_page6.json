@@ -16,7 +16,7 @@
 			"text": "_ TODO _ #DROP_1"
 		},
 		"frame": "task",
-		"hidden": false,
+		"hidden": true,
 		"show_toast": true,
 		"announce_to_chat": false
 	},

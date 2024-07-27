@@ -9,11 +9,11 @@
 		"description": {
 			"text": "A slow beginning..."
 		},
+		"background": "minecraft:textures/block/ice.png",
 		"frame": "task",
 		"show_toast": true,
 		"announce_to_chat": false,
-		"hidden": false,
-		"background": "minecraft:textures/block/ice.png"
+		"hidden": false
 	},
 	"criteria": {
 		"demo": {
@@ -21,7 +21,7 @@
 			"conditions": {
 				"player": {
 					"location": {
-						"biome": "minecraft:ice_spikes"
+						"biomes": "minecraft:ice_spikes"
 					}
 				}
 			}

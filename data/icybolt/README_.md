@@ -53,7 +53,7 @@ Upon breaking blue ice in ice spikes biome, you may found a suspicious ice block
 
 After you succesfuly found a frozen dragon fossile ( further information in blue ice breaking part ). If you try to break it, it won't. If you are right clicking with a netherite pickaxe you will break the ice and continue the process. Otherwise you will be talled to get a stronger tool.
 
-> « A magic flow came from this ice, you feal it, it's realy cold and angry! This will need a greater power if you want to take it. »
+> « A magical flow is running out of this ice. You feel it; it gives you chills. You even sense some oppressive and ambient anger! You fear the need for stronger power to take this. »
 
 The terrain will then be transform into a massive frozen area !
 With a block explosion

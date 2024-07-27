@@ -16,7 +16,7 @@
 			"text": "_ TODO _ #SPELL_RUNE"
 		},
 		"frame": "task",
-		"hidden": false,
+		"hidden": true,
 		"show_toast": true,
 		"announce_to_chat": false
 	},

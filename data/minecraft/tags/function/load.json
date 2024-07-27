@@ -4,6 +4,7 @@
         "utils:load",
         "utils:time/load",
         "clock:load",
-        "graves:load"
+        "graves:load",
+        "icybolt:init"
     ]
 }

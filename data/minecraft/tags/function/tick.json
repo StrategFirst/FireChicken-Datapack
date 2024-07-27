@@ -4,6 +4,7 @@
         "utils:time/tick",
         "clock:tick",
         "display:tick",
-        "graves:tick"
+        "graves:tick",
+        "icybolt:tick"
     ]
 }
