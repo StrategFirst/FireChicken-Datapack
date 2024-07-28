@@ -1,4 +1,4 @@
-summon armor_stand ^ ^ ^.5 {Fuse:60s, Tags:['icybolt_boltsphere', 'icybolt', 'this'], Small:1b, Invisible:1b}
+summon armor_stand ^ ^ ^.5 {Fuse: 60s, Tags: ['icybolt_boltsphere', 'icybolt', 'this'], Small: 1b, Invisible: 1b}
 
 # Get point A
 execute store result score #ax icybolt.boltsphere.pos run data get entity @s Pos[0] 1000

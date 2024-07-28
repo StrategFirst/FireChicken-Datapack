@@ -13,8 +13,8 @@ data modify entity @s Invisible set value 1b
 # Make the tombstone prettier
 data modify entity @s Small set value 1b
 data modify entity @s ArmorItems[3] set value {id: "minecraft:polished_blackstone_brick_wall", count: 1b}
-data modify entity @s HandItems[0] set value {id: "minecraft:poppy", count:1b}
-data modify entity @s HandItems[1] set value {id: "minecraft:stone_button", count:1b, components: {"minecraft:custom_data": {"grave_items": []}}}
+data modify entity @s HandItems[0] set value {id: "minecraft:poppy", count: 1b}
+data modify entity @s HandItems[1] set value {id: "minecraft:stone_button", count: 1b, components: {"minecraft:custom_data": {"grave_items": []}}}
 data modify entity @s Pose set value {RightArm: [270f, 270f, 0f]}
 data modify entity @s ShowArms set value 1b
 

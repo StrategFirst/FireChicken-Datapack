@@ -1,1 +1,1 @@
-tellraw @s {"text": "A magical flow is running out of this ice. You feel it; it gives you chills. You even sense some oppressive and ambient anger! You fear the need for stronger power to take this.", "italic": true, "color": "aqua"}.
+tellraw @s {"text": "A magical flow is running out of this ice. You feel it; it gives you chills. You even sense some oppressive and ambient anger! You fear the need for stronger power to take this.", "italic": true, "color": "aqua"}

@@ -11,7 +11,6 @@
 execute store success score #has_items graves.death run data get entity @s HandItems[1].components."minecraft:custom_data".grave_items[0]
 # IF THERE IS ITEM TO REMOVE
 
-
 # Spawn a blank item
 execute if score #has_items graves.death matches 1.. run summon minecraft:item ~ ~0.4 ~ {Tags: ["graves.item"], Item: {id: "minecraft:structure_void", count: 1b}}
 # Edit item to the current in the grave

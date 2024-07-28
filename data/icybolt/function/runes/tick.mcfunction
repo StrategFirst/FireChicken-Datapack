@@ -1,12 +1,12 @@
 # Animation via particle
-particle minecraft:falling_dust{block_state:{Name:ice}} ~ ~-1 ~ 0.2 0.1 0.2 0 1 normal
+particle minecraft:falling_dust{block_state: {Name: ice}} ~ ~-1 ~ 0.2 0.1 0.2 0 1 normal
 
 # Test if neighbours
 function icybolt:runes/find_triangle/step1
 
 # Kill projectile on floor
-execute as @e[tag=icybolt_snowlayer] if entity @s[nbt={OnGround:1b}] at @s run function icybolt:runes/projectile/touch_snow
-execute as @e[tag=icybolt_icespike] if entity @s[nbt={inGround:1b}] at @s run function icybolt:runes/projectile/touch_ice
+execute as @e[tag=icybolt_snowlayer] if entity @s[nbt={OnGround: 1b}] at @s run function icybolt:runes/projectile/touch_snow
+execute as @e[tag=icybolt_icespike] if entity @s[nbt={inGround: 1b}] at @s run function icybolt:runes/projectile/touch_ice
 
 # If trigger run activadd functions
 execute as @s[tag=icybolt_rune_triangle] run function icybolt:runes/tick_activated
