@@ -1,26 +1,26 @@
 [
-  {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-      "equipment": {
-        "mainhand": {
-          "items": [
-            "minecraft:diamond_pickaxe",
-            "minecraft:netherite_pickaxe"
-          ]
-        }
-      }
-    }
-  },
-  {
-    "condition": "minecraft:random_chance",
-    "chance": 0.0015625
-  },
-  {
-    "condition": "minecraft:location_check",
-    "predicate": {
-      "biomes": "minecraft:ice_spikes"
-    }
-  }
+	{
+		"condition": "minecraft:entity_properties",
+		"entity": "this",
+		"predicate": {
+			"equipment": {
+				"mainhand": {
+					"items": [
+						"minecraft:diamond_pickaxe",
+						"minecraft:netherite_pickaxe"
+					]
+				}
+			}
+		}
+	},
+	{
+		"condition": "minecraft:random_chance",
+		"chance": 0.0015625
+	},
+	{
+		"condition": "minecraft:location_check",
+		"predicate": {
+			"biomes": "minecraft:ice_spikes"
+		}
+	}
 ]
